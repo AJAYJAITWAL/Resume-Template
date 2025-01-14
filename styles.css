@@ -1,0 +1,115 @@
+body {
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  color: #444;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+header {
+  background-color: #2f3c42; /* Header background color */
+  padding: 35px;
+  text-align: left; /* Align text to the left */
+}
+
+.name-section h1 {
+  margin: 0;
+  font-size: 2.8em;
+  font-weight: bold;
+  color: #ffffff; /* Header text color */
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  width: 35%;
+  background-color: #3c748c; /* Sidebar background color */
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  font-size: 1.2em;
+  border-top: 2px solid #ffffff; /* Top border for each section */
+  padding-top: 10px;
+}
+
+.sidebar .contact h2 {
+  border-top: none; /* Remove the top border for "Contact" section */
+  padding-top: 0;
+}
+
+.sidebar ul {
+  list-style-type: square;
+  margin-left: 15px;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.sidebar p {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+.main-content {
+  width: 70%;
+  background-color: #ffffff; /* Right-side white */
+  padding: 20px;
+}
+
+.main-content h2 {
+  color: black;
+  border-top: 2px solid black;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  font-size: 1.5em;
+}
+
+.main-content .job {
+  margin-bottom: 30px;
+}
+
+.main-content .job h3 {
+  color: black;
+  font-size: 1.3em;
+  margin-bottom: 5px;
+}
+
+.main-content .job p {
+  color: #555;
+  margin: 5px 0;
+}
+
+.main-content .job ul {
+  list-style: disc;
+  margin: 10px 0 0 20px;
+  padding: 0;
+}
+
+.main-content .job ul li {
+  margin-bottom: 5px;
+}
+
+.education-text {
+  margin-bottom: 5px;
+  margin-top: 0;
+}
